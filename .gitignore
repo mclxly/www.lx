@@ -1,3 +1,16 @@
-/bootstrap/compiled.php
-.env.*.php
-.env.php
+/.idea
+/vendor
+/www/images
+/node_modules
+.env
+.DS_Store
+Thumbs.db
+composer.lock
+composer.phar
+<<<<<<< HEAD
+/public/build
+t.php
+
+=======
+/public/build
+>>>>>>> origin/master
