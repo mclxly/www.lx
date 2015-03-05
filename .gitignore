@@ -1,16 +1,14 @@
 /.idea
 /vendor
 /www/images
-/node_modules
 .env
 .DS_Store
 Thumbs.db
 composer.lock
 composer.phar
-<<<<<<< HEAD
 /public/build
 t.php
 
-=======
-/public/build
->>>>>>> origin/master
+# ignore NPM & Bower
+node_modules
+bower_components

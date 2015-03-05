@@ -10,7 +10,7 @@ return [
 	'e_mail' => '电邮地址',
 	'register' => '注册',
 	'password_confirmation' => '密码确认',
-	'confirmation_required' => '必须',
+	'confirmation_required' => '*',
 	'name' => '姓名',
 	'home' => '主页',
 	'email_required' => 'You need to provide a valid email address',

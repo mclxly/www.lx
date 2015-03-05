@@ -23,6 +23,7 @@ A: export DISABLE_NOTIFIER=true;
 * [定制Laravel-5-Bootstrap-3-Starter-Site](https://github.com/mclxly/Laravel-5-Bootstrap-3-Starter-Site)
 * [Laravel-5-Bootstrap-3-Starter-Site](https://github.com/mrakodol/Laravel-5-Bootstrap-3-Starter-Site)
 * [BootstrapCMS/CMS](https://github.com/BootstrapCMS/CMS)
+* [Flat-UI](https://github.com/designmodo/Flat-UI)
 
 
 

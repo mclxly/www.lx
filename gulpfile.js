@@ -3,6 +3,7 @@ var elixir = require('laravel-elixir');
 /*
  |--------------------------------------------------------------------------
  | Elixir Asset Management
+ | http://laravel.com/docs/5.0/elixir
  |--------------------------------------------------------------------------
  |
  | Elixir provides a clean, fluent API for defining some basic Gulp tasks
@@ -17,9 +18,12 @@ elixir(function(mix) {
         'app.css'
         ], 'public/assets/site/css/app.min.css', 'public/css');
 
+    mix.copy('3rd/flat-ui/dist/css/flat-ui.css', 'resources/vendor/flat-ui.css');
+      
     // vendor css/js
     mix.styles([
-        "awesomplete.css"
+        "awesomplete.css",
+        "flat-ui.css"
     ], 'public/assets/css/vendor.min.css', 'resources/vendor');
 
     mix.scripts([

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Auth\Registrar;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
@@ -101,7 +102,7 @@ class AuthController extends Controller
      */
     public function login(LoginRequest $request)
     {
-        if ($this->auth->attempt($request->only('email', 'password'), Input::has('remember'))) {
+        if ($this->auth->attempt($request->only('email', 'password'), $request->has('remember'))) {
             
             $count = IsAdminRoles::join('permission_role','assigned_roles.role_id','=','permission_role.role_id')
             ->join('permissions','permissions.id','=','permission_role.permission_id')

@@ -118,36 +118,16 @@
 						Lang::get("admin/modal.reset") }}
 					</button>
 					<button type="submit" class="btn btn-sm btn-success">
-<<<<<<< HEAD
-<<<<<<< HEAD
-						<span class="glyphicon glyphicon-ok-circle"></span> @if
-						(isset($news)) {{ Lang::get("admin/modal.edit") }} @else {{
-						Lang::get("admin/modal.create") }} @endif
-=======
-=======
->>>>>>> origin/master
 						<span class="glyphicon glyphicon-ok-circle"></span> 
 						@if	(isset($news)) 
 						  {{ Lang::get("admin/modal.edit") }} 
 						@else 
 						  {{Lang::get("admin/modal.create") }} 
 						@endif
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
->>>>>>> origin/master
 					</button>
 				</div>
 			</div>
 			<!-- ./ form actions -->
 
 </form>
-<<<<<<< HEAD
-<<<<<<< HEAD
 @stop
-=======
-@stop
->>>>>>> origin/master
-=======
-@stop
->>>>>>> origin/master

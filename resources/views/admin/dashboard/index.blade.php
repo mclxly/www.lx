@@ -160,12 +160,4 @@
 		</div>
 	</div>
 </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
 @stop
-=======
-@stop
->>>>>>> origin/master
-=======
-@stop
->>>>>>> origin/master
